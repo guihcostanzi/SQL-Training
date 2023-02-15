@@ -8,14 +8,15 @@ A tabela 'DUAL' está presente por padrão no Banco de Dados, e serve para manus
 
 Ex : 
 
-´´´´
+``
 SELECT CURRENT_DATE() FROM DUAL;
-´´´´
+``
 
 Ex 2 : 
-´´´´
+
+``
 SELECT SET_SEQ_ID.nextval INTO:NEW.SET_ID 
 FROM DUAL;
-´´´´
+``
 
 Perceba que se está chamando a tabela 'DUAL' para realizar as operações, uma vez que é a mais adequada para tal.
