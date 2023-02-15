@@ -119,3 +119,6 @@ INSERT INTO T_PRODUTOS (PRO_ORIGEM, PRO_NOME, PRO_PRECO, PRO_DT_VALIDADE, PRO_ID
 INSERT INTO T_PRODUTOS (PRO_ORIGEM, PRO_NOME, PRO_PRECO, PRO_DT_VALIDADE, PRO_ID_SETOR) VALUES ('CHINA', 'ALFACE UND.', 9.90, TO_DATE('2023-01-09', 'YYYY-MM-DD'), 5);
 INSERT INTO T_PRODUTOS (PRO_ORIGEM, PRO_NOME, PRO_PRECO, PRO_DT_VALIDADE, PRO_ID_SETOR) VALUES ('CHINA', 'CEBOLA UND.', 30.90, TO_DATE('2023-02-19', 'YYYY-MM-DD'), 5);
 
+/*Obs : Utilizada a função TO_DATE() para transformar os argumentos para o tipo DATE.*/
+
+/*Utilizar o modo "Script" da interface gráfica para executar múltiplos comandos de uma vez só. Caso contrário, apresenta erro.*/
